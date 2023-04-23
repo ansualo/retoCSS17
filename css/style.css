@@ -1,0 +1,35 @@
+body{
+    background-image: url(../img/ac.jpg);
+}
+[class*="foto"]{
+    width: 5em;
+    height: 5em;
+    background-color: red;
+}
+.foto1,.foto2, .foto3, .foto4{
+    background-image: url(../img/back_mantel.jpg);
+}
+.foto5{
+    background-image: url(../img/dh.jpg); 
+}
+.foto6{
+    background-image: url(../img/dh.jpg); 
+}
+.foto7{
+    background-image: url(../img/dh_2.jpg); 
+}
+.foto8{
+    background-image: url(../img/dh_3.jpg); 
+}
+.foto9{
+    background-color: greenyellow ;
+}
+.foto10{
+    background-color: darkred ;
+}
+.foto11{
+    background-color: teal ;
+}
+.foto12{
+    background-color: green ;
+}
