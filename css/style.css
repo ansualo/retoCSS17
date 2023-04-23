@@ -2,34 +2,57 @@ body{
     background-image: url(../img/ac.jpg);
 }
 [class*="foto"]{
-    width: 5em;
-    height: 5em;
-    background-color: red;
+    width: 11em;
+    height: 11em;
+    border: 1px solid black;
+    margin:1.6em;
 }
-.foto1,.foto2, .foto3, .foto4{
+.fila1, .fila2, .fila3{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.fotoa,.fotob, .fotoc, .fotod{
     background-image: url(../img/back_mantel.jpg);
 }
-.foto5{
+.fotoc, .fotod, .fotoe, .fotof, .fotog, .fotoh{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.fotob{
+    width: 8em;
+    height: 8em;
+    margin: 3.1em ;
+}
+.fotod, .fotof{
+    background-size: 75%;
+    background-position: center;
+    background-color: rgb(226, 224, 224);
+}
+.fotoe, .fotof{
     background-image: url(../img/dh.jpg); 
 }
-.foto6{
-    background-image: url(../img/dh.jpg); 
+.fotog{
+    background-image: url(../img/dh_2.jpg);
+    background-size: 11em;
+    background-position: center;
+    background-color: rgb(226, 224, 224);
 }
-.foto7{
-    background-image: url(../img/dh_2.jpg); 
-}
-.foto8{
+.fotoh{
     background-image: url(../img/dh_3.jpg); 
+    background-position: center;
+    background-color: rgb(226, 224, 224);
 }
-.foto9{
+.fotoi{
     background-color: greenyellow ;
 }
-.foto10{
+.fotoj{
     background-color: darkred ;
 }
-.foto11{
+.fotok{
     background-color: teal ;
 }
-.foto12{
+.fotol{
     background-color: green ;
 }
